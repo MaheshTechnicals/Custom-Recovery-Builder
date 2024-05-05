@@ -3,7 +3,7 @@ name: Recovery Builder - TWRP
 on:
   workflow_dispatch:
     inputs:
-      MANIFEST_BRANCH:
+      MANIFEST_BRANCH:'12.1'
         description: 'TWRP Minimal-Manifest Branch'
         required: true
         default: ''
