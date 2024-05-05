@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       MANIFEST_BRANCH:
-        description: 'Manifest Branch'
+        description: 'android-12.1'
         required: true
         default: ''
         type: choice
