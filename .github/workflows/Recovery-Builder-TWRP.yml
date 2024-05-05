@@ -3,8 +3,8 @@ name: Recovery Builder - TWRP
 on:
   workflow_dispatch:
     inputs:
-      MANIFEST_BRANCH:'12.1'
-        description: 'TWRP Minimal-Manifest Branch'
+      MANIFEST_BRANCH:'android-12.1'
+        description: '' android-12.1'
         required: true
         default: ''
         type: choice
